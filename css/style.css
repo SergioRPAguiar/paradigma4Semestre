@@ -1,8 +1,11 @@
-body {
+.container {
     display: flex;
     flex-direction: column;
     font-family: Helvetica;
     background-color: #f5f5f5;
+    padding: 30px 25px;
+    margin: 0;
+    
 
 }
 
@@ -29,8 +32,7 @@ input {
     border-bottom: 1px;
     border-bottom-color: rgb(204, 204, 204);
     border-bottom-style: solid;
-    background-color: red;
-    position:initial
+    
 }
 
 .filtrarText {
@@ -51,6 +53,7 @@ input {
 .inputFiltroAlunos{
     width: 150px;
     height: 25px;
+    margin-bottom: 10px;
 }
 
 .botaoAdd{
@@ -79,13 +82,53 @@ input {
 }
 
 .notaTable{
-    position: relative;
-    float: inline-start;
-    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: top;
+    align-items: center;
 }
 
+
 .nomeTable {
-    position: relative;
-    float: inline-start;
-    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: top;
+    align-items: center;
+}
+
+.tableText{
+    display: flex;
+    justify-content: left;
+    margin: 0px;
+}
+
+.tableText h3 {
+    font-size: 0.9em;
+    display: flex;
+    justify-content: center;
+    padding: 5px 0px;
+    width: 98.5%;
+    height: 20px;
+    background-color: #a3a3a342;
+    border: 2px solid  rgba(122, 122, 122, 0.39);
+    border-radius: 4px;
+    margin: 1px;
+    align-items: center;
+    padding: 5px 0px;
+}
+
+.tableText p {
+    font-size: 0.9em;
+    padding: 3px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98%;
+    height: 20px;
+    border: 2px solid  rgba(122, 122, 122, 0.39);
+    border-radius: 4px;
+    margin: 1px;
+    
 }
