@@ -1,11 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <h1>Oi</h1>
-</body>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div>
+      <h1 class="alunosText">Aluno</h1>
+      <p class="filtrarText">Filtrar:</p>
+      <input type="text" class="inputFiltroAlunos" />
+      <div>
+      <div class="divTable">
+        <p class="nomeTable">Nome</p>
+      </div>
+      <div>
+        <p class="notaTable">Nota</p>
+      </div>
+      </div>
+      <h1 class="novoAlunoText">Novo Aluno</h1>
+      <ul class="listaAviso">
+        <li>O nome não pode ser em branco</li>
+        <li>A nota não pode ser em branco</li>
+      </ul>
+      <p class="nomeText">Nome:</p>
+      <input type="text" class="inputNomeAluno"/>
+      <p class="notaText">Nota:</p>
+      <input type="text" class="inputNotaAluno"/>
+      <div>
+        <button class="botaoAdd">Adicionar</button>
+      </div>
+      
+    </div>
+
+    <script src="../js/index.js"></script>
+  </body>
 </html>

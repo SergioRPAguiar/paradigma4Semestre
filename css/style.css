@@ -1,0 +1,91 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Helvetica;
+    background-color: #f5f5f5;
+
+}
+
+input {
+    border: 2px solid rgb(204, 204, 204);
+    border-radius: 3px;
+}
+
+
+.listaAviso {
+    font-size: 12px;
+    color: red;
+}
+
+.alunosText{
+    padding-bottom: 10px;
+    border-bottom: 1px;
+    border-bottom-color: rgb(204, 204, 204);
+    border-bottom-style: solid;
+}
+
+.novoAlunoText{
+    padding-bottom: 10px;
+    border-bottom: 1px;
+    border-bottom-color: rgb(204, 204, 204);
+    border-bottom-style: solid;
+    background-color: red;
+    position:initial
+}
+
+.filtrarText {
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+
+.notaText{
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+
+.nomeText{
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+
+.inputFiltroAlunos{
+    width: 150px;
+    height: 25px;
+}
+
+.botaoAdd{
+    margin-top: 20px;
+    width: 120px;
+    height: 25px;
+    background-color: rgb(204, 204, 204);
+    border: 0px solid;
+    cursor: pointer;
+    
+}
+
+.botaoAdd:active{
+    transform: translateY(1px);
+    background-color: rgb(122, 122, 122);    
+}
+
+.inputNomeAluno{
+    width: 500px;
+    height: 20px;
+}
+
+.inputNotaAluno{
+    width: 250px;
+    height: 20px;
+}
+
+.notaTable{
+    position: relative;
+    float: inline-start;
+    margin-left: 200px;
+}
+
+.nomeTable {
+    position: relative;
+    float: inline-start;
+    background-color: blue;
+}
