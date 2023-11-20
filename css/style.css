@@ -1,0 +1,145 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    font-family: Helvetica;
+    background-color: #f5f5f5;
+    padding: 30px 25px;
+    margin: 0;
+    
+
+}
+
+input {
+    border: 2px solid rgb(204, 204, 204);
+    border-radius: 3px;
+}
+
+span {
+    font-size: 0.8em;
+    color: red;
+}
+
+
+.listaAviso {
+    font-size: 12px;
+    color: red;
+}
+
+.alunosText{
+    padding-bottom: 10px;
+    border-bottom: 1px;
+    border-bottom-color: rgb(204, 204, 204);
+    border-bottom-style: solid;
+}
+
+.novoAlunoText{
+    padding-bottom: 10px;
+    border-bottom: 1px;
+    border-bottom-color: rgb(204, 204, 204);
+    border-bottom-style: solid;
+    
+}
+
+.filtrarText {
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+
+.notaText{
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+
+.nomeText{
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+
+.inputFiltroAlunos{
+    width: 150px;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+.botaoAdd{
+    margin-top: 20px;
+    width: 120px;
+    height: 25px;
+    background-color: rgb(204, 204, 204);
+    border: 0px solid;
+    cursor: pointer;
+    
+}
+
+.botaoAdd:active{
+    transform: translateY(1px);
+    background-color: rgb(122, 122, 122);    
+}
+
+.inputNomeAluno{
+    width: 500px;
+    height: 20px;
+}
+
+.inputNotaAluno{
+    width: 250px;
+    height: 20px;
+}
+
+.divNotaTable{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: top;
+    align-items: center;
+}
+
+.divNotaTable table {
+    width: 100%;
+}
+
+.divNomeTable {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: top;
+    align-items: center;
+}
+
+.divNomeTable table {
+    width: 100%;
+}
+
+.tableText{
+    display: flex;
+    justify-content: left;
+    margin: 0px;
+}
+
+.tableText h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98.5%;
+    height: 20px;
+    margin: 1px;
+    padding: 5px 0px;
+    border: 2px solid  rgba(122, 122, 122, 0.39);
+    border-radius: 4px;
+    font-size: 0.9em;
+    background-color: #a3a3a342;
+    
+}
+.tableText td {
+    font-size: 0.9em;
+    padding: 3px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99%;
+    height: 20px;
+    border: 2px solid  rgba(122, 122, 122, 0.39);
+    border-radius: 4px;
+    margin: 1.5px;
+    
+}
